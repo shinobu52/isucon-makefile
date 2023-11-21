@@ -4,6 +4,7 @@
 # 4. install alp
 # 5. install pt-query-digestt
 .PHONY init
+init:
 	apt update \
 	make install_dstat \
 	make install_stress \
