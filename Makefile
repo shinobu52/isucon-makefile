@@ -5,7 +5,7 @@
 # 5. install pt-query-digestt
 .PHONY: init
 init:
-	apt update \
+	sudo apt update \
 	make install_dstat \
 	make install_stress \
 	make install_ab \
