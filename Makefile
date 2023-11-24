@@ -2,7 +2,7 @@
 # 2. install stress command
 # 3. install ab(apache benchmark) command
 # 4. install alp
-# 5. install pt-query-digestt
+# 5. install pt-query-digest
 .PHONY: init
 init:
 	sudo apt update && \
@@ -32,7 +32,7 @@ install_alp:
 
 .PHONY: isntall_pt
 install_pt:
-	sudo apt install percona-toolkit
+	sudo apt -y install percona-toolkit
 
 # install netdata
 .PHONY: install_netdata
